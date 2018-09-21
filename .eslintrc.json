@@ -1,0 +1,29 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "rules": {
+    "no-console": 1,
+    "linebreak-style": 1,
+    "no-use-before-define": 0,
+    "jsx-quotes": [1, "prefer-single"],
+    "comma-dangle": 1,
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": 0,
+    "semi": [1,"never"],
+    "react/destructuring-assignment": 1,
+    "no-unused-vars": 0
+  }
+}
