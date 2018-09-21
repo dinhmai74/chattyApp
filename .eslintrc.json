@@ -18,7 +18,13 @@
     "linebreak-style": 1,
     "no-use-before-define": 0,
     "jsx-quotes": [1, "prefer-single"],
-    "comma-dangle": 1,
+    "comma-dangle": [1, {
+        "arrays": "always",
+        "objects": "always",
+        "imports": "always",
+        "exports": "never",
+        "functions": "ignore"
+    }],
     "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/prop-types": 0,

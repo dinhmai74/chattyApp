@@ -28,6 +28,11 @@
   },
   "dependencies": {
     "apollo-server": "^2.1.0",
-    "graphql": "^14.0.2"
+    "faker": "^4.1.0",
+    "graphql": "^14.0.2",
+    "graphql-date": "^1.0.3",
+    "lodash": "^4.17.11",
+    "sequelize": "^4.38.1",
+    "sqlite3": "^4.0.2"
   }
 }
